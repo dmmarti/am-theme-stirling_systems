@@ -58,7 +58,7 @@ local blackvideo = fe.add_image("stirling_black_video.png", 0, 0, flw, flh );
 if ( my_config["enable_static"] == "Yes" )
 {
 //adjust the values below for the static preview video snap
-   const SNAPBG_ALPHA = 0;
+   const SNAPBG_ALPHA = 200;
    local snapbg=null;
    snapbg = fe.add_image( "static.mp4", flx*0.65, fly*0.45, flw*0.325, flh*0.45 );
    snapbg.trigger = Transition.EndNavigation;
@@ -72,6 +72,7 @@ if ( my_config["enable_static"] == "Yes" )
 }
  else
  {
+ const SNAPBG_ALPHA = 0;
  local temp = fe.add_text("", flx*0.155, fly*0.07, flw*0.69, flh*0.57 );
  temp.bg_alpha = SNAPBG_ALPHA;
  }
