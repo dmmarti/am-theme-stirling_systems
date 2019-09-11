@@ -20,6 +20,7 @@ class UserConfig {
    </ label="Enable game information", help="Show game information", options="Yes,No", order=14 /> enable_ginfo="Yes";
    </ label="Enable text frame", help="Show text frame", options="Yes,No", order=15 /> enable_frame="Yes";
 </ label="--------    Miscellaneous    --------", help="Miscellaneous options", order=23 /> uct6="select below";
+   </ label="Enable random text colors", help=" Select random text colors.", options="Yes,No", order=17 /> enable_colors="Yes";
    </ label="Enable monitor static effect", help="Show static effect when snap is null", options="Yes,No", order=24 /> enable_static="No";
    </ label="Random Wheel Sounds", help="Play random sounds when navigating games wheel", options="Yes,No", order=25 /> enable_random_sound="Yes";   
 //</ label="--------   Pointer images    --------", help="Change pointer image", order=30 /> uct4="select below";
