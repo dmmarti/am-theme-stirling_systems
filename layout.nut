@@ -339,6 +339,7 @@ class GenreImage1
         "collection": [ "collection" ],
         "fighter": [ "fighting", "fighter", "beat-'em-up" ],
         "handheld": [ "handheld" ],
+		"jukebox": [ "jukebox" ],
         "platformer": [ "platformer", "platform" ],
         "mahjong": [ "mahjong" ],
         "maze": [ "maze" ],
